@@ -1,0 +1,9 @@
+{
+	"name": "ETL-for-Learning",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f5d4ad13-3256-499e-a3a3-5629d8f39af0",
+		"tenantId": "e46246cc-dc2a-42f7-8bb6-be9205d85d0c"
+	}
+}
