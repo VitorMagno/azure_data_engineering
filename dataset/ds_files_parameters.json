@@ -1,0 +1,32 @@
+{
+	"name": "ds_files_parameters",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storage_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dic.json",
+				"fileSystem": "parameters"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"p_relative_url": {
+					"type": "string"
+				},
+				"p_folder": {
+					"type": "string"
+				},
+				"p_f_name": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
