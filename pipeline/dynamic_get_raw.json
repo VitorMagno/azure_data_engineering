@@ -5,8 +5,6 @@
 			{
 				"name": "ForEachGitFile",
 				"type": "ForEach",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "LookupFiles",
@@ -26,8 +24,6 @@
 						{
 							"name": "dynamic_copy",
 							"type": "Copy",
-							"state": "Inactive",
-							"onInactiveMarkAs": "Succeeded",
 							"dependsOn": [],
 							"policy": {
 								"timeout": "0.12:00:00",
